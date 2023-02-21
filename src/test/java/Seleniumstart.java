@@ -34,7 +34,7 @@ public class Seleniumstart {
 
     @AfterMethod
     public void postCondition() {
-//        wd.close();
+//      wd.close();
         wd.quit();
     }
 
